@@ -3,12 +3,8 @@
  */
 package MultiSelectComboBox
 
-import java.awt.Dimension
-import java.awt.GridBagConstraints
-import java.awt.GridBagLayout
-import javax.swing.*
-
 fun main() {
+    println("test")
     val view = View()
     Controller(view)
     view.isVisible = true
