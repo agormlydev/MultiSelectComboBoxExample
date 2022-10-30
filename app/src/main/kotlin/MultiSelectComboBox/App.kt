@@ -4,7 +4,6 @@
 package MultiSelectComboBox
 
 fun main() {
-    println("test")
     val view = View()
     Controller(view)
     view.isVisible = true
